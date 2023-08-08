@@ -4,9 +4,9 @@ pergunte um valor de uma compra, o número de prestações escolhidas e apresent
 prestações.
 '''
 
-num1 = float(input("Informe um valor de uma compra: "))
-num2 = float(input("Informe o número de prestações escolhidas: "))
+valor_compra = float(input("Informe o valor total da compra:"))
+num_prestacoes = float(input("Qual o número de prestações da compra?"))
 
-valor = num1 / num2
+valor_prestacao = valor_compra / num_prestacoes
 
-print("O valor das prestações é:", valor)
+print(f"O valor de cada uma das {num_prestacoes:.0f} prestações será de R$ {valor_prestacao:.2f}")

@@ -12,5 +12,9 @@ venda = float(input("Informe o total de vendas efetuadas por ele no mês em dinh
 com1 = sal * 15/100
 comfin= com1
 
-print("O seu nome é:", nome,"O seu salário fixo é:",sal,"a comissão ganha é:", com1,"Seu salário completo é:", comfin)
+print("O seu nome é:", nome)
+print("O seu salário fixo é:", sal)
+print("A comissão ganha é:", com1)
+print("Seu salário completo é:", comfin)
+
 
