@@ -6,7 +6,8 @@ programa deverá exibir na tela para o usuário o valor do peso informado em gra
 kil = float(input("Informe o seu peso em kilos: "))
 met = float(input("Informe sua altura em metros: "))
 
-resultado = kil / 1000
-valor = met / 100
+resultado = kil * 1000
+valor = met * 100
 
-print("Seu pelo em gramas corresponte à:", resultado," Sua altura em centímetros corresponde à:", valor)
+print(f"Seu pelo em gramas corresponte à: {resultado:.0f}g")
+print(f" Sua altura em centímetros corresponde à: {valor:.0f}cm")

@@ -2,21 +2,18 @@
 Escreva um algoritmo pergunte o número total de eleitores de um município, o número de votos brancos, nulos
 e válidos e apresente como resposta o percentual que cada um representa em relação ao total de eleitores.
 """
-nummunicipio = float(input("Qual o numero total de eleitores de um municipio?"))
-votobranc = float(input("Qual a quantidade de votos brancas?"))
-votovul = float(input("Qual a quantidade de votos nulos?"))
+num1 = float(input("Informe o número total de eleitores do município:"))
+num2 = float(input("Informe o número total de votos brancos:"))
+num3 = float(input("Informe o número de votos nulos:"))
+num4 = float(input("Informe o número de votos válidos:"))
 
-h = nummunicipio-(votovul+votobranc)
-print("O valor de votos invalidos é", h)
-
-votoval = int(input("Qual a quantidade de votos validados"))
-
-totalvtbrc = (nummunicipio/votobranc)*100
-totalvtvul = (nummunicipio/votovul)*100
-totalvtval = (nummunicipio/votoval)*100
+total1 = (num2/num1) * 100
+total2 = (num3/num1) * 100
+total3 = (num4/num1) * 100
 
 print("O resultado dos votos são:")
 
-print("A quantidade de votos brancos são", totalvtbrc)
-print("A quantidade de votos nulos são", totalvtvul)
-print("A quantidade de votos validados são", totalvtval)
+print(f"A quantidade de votos brancos em percentual é: {total1:.0f}%")
+
+print(f"A quantidade de votos nulos em percentual é: {total2:.0f}%")
+print(f"A quantidade de votos validados em percentual é: {total3:.0f}%")

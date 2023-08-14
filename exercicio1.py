@@ -9,4 +9,4 @@ acre = cont * 10/100
 
 val = cont + acre
 
-print("O valor da conta mais o acréscimo de 10% do garçom é:", val)
+print(f"O valor da conta mais o acréscimo de 10% do garçom é: R${val:.2f}".replace(".",","))

@@ -10,5 +10,5 @@ dias = int(input("Quantos dias você tem?"))
 
 resultado = (anos*365)+(meses*30)+dias
 
-print("A idade que você tem em dias é", resultado )
+print(f"A idade que você tem em dias é: {resultado}" )
 

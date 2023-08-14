@@ -7,5 +7,4 @@ num2 = float(input("Informe o percentual de custo:"))
 
 resultado = num1 * num2/100
 
-print("O valor da venda é:", resultado)
-
+print(f"O valor da venda é: R${resultado:.2f}".replace(".",","))

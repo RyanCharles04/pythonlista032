@@ -11,4 +11,4 @@ metros = float(input("Informe sua altura em metros: "))
 
 resultado =  kil / math.pow(metros,2)
 
-print("O seu índice de massa corporal corresponde à:", resultado)
+print(f"O seu índice de massa corporal corresponde à: {resultado:.0f}")

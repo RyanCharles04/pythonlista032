@@ -15,9 +15,9 @@ mul = num1 * num2
 div = num1 / num2
 res = num1 % num2
 
-print("A soma dos dois números é:", soma)
-print("A subtração do primeiro pelo segundo é:", sub1)
-print("A subtração do segundo pelo primeiro é:", sub2)
-print("A multiplicação entre os dois números é:", mul)
-print("A divisão do primeiro pelo segundo é:", div)
-print("O resto da divisão é:", res)
+print(f"A soma dos dois números é: {soma}")
+print(f"A subtração do primeiro pelo segundo é: {sub1}")
+print(f"A subtração do segundo pelo primeiro é: {sub2}")
+print(f"A multiplicação entre os dois números é: {mul}")
+print(f"A divisão do primeiro pelo segundo é: {div:.0f}")
+print(f"O resto da divisão é: {res}")

@@ -10,4 +10,4 @@ min = int(input("Informe o valor dos minutos atuais: "))
 
 val = (hora * 60) + min
 
-print("Já se passaram:", val," minutos desde as 00:00h deste dia")
+print(f"Já se passaram: {val}"," minutos desde as 00:00h deste dia")
